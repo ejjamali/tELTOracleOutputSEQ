@@ -1,5 +1,6 @@
 # tELTOracleOutputSEQ
 Le composant tELTOracleOutputSEQ est une évolution, du composant tELTOracleOutput de Talend, qui permet l'utilisation d'une séquence dans le cas MERGE. 
+<img src="images/tELTOracleOutputSEQ.png" alt="hi" class="inline"/>
 
 # Installation
 Voici les étapes à suivre pour installer le composant :
@@ -27,6 +28,10 @@ Voici les étapes à suivre pour utiliser le composant:
 <li>3. Spécifier la clé fonctionnelle de la table car celle-ci sera utilisée pour générer la rquête du MERGE. Cf. la capture d'écran ci-dessous. 
 <img src="images/schema.png" alt="hi" class="inline"/>
 </li>
+
+L'option permettant l'utilisation d'une séquence apparait dans l'étape 4. Vous pouvez désormais utiliser une séquence afin d'alimenter la clé primaire de la table (décocher dans l'étape 3). 
+
+Certe, il y a d'autres solutions de contourennement afin d'arriver au même résultat : utilisation de trigger, de procédure stockée, etc. Mais c'est toujours mieux d'avoir un seul composant permettant la réalisation de tout le traitement update, insert et l'appel à la sequence. 
 </ul>
 
 
