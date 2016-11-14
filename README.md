@@ -9,7 +9,7 @@ Voici les étapes à suivre afin d'installer le composant :
       <i>C:\Talend5.6.1\TOS_DI-20141207_1530-V5.6.1\custom</i>
 2. Télécharger le zip d'ici et le sauvegarder dans le dossier spécifier dans l'étape 1
 
-3. En fonction de votre version, modifier le fichier <b>tELTOracleOutputSEQ_main.javajet<.b>. La ligne suivante doit pointer sur le bon répertoire du fichier <b>Log4jDBConnUtil.javajet </b>: 
+3. En fonction de votre version, modifier le fichier <b>tELTOracleOutputSEQ_main.javajet</b>. La ligne suivante doit pointer sur le bon répertoire du fichier <b>Log4jDBConnUtil.javajet </b>: 
     <%@ include file="../../plugins/org.talend.designer.components.localprovider_5.6.1.20141207_1530/components/templates/Log4j/Log4jDBConnUtil.javajet"%>      
 
 Une fois l'installation, utilisez les touches CTRL+SHIFT+F3 afin de faire apparaitre le nouveau composant dans le palette. 
