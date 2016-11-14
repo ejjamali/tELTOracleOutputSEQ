@@ -2,7 +2,7 @@
 Le composant tELTOracleOutputSEQ est une évolution, du composant tELTOracleOutput de Talend, qui permet l'utilisation d'une séquence dans le cas MERGE. 
 
 # Installation
-Voici les étapes à suivre afin d'installer le composant :
+Voici les étapes à suivre pour installer le composant :
 1. Spécifier un dossier pour les composants utilisateur 
     il faut se rendre dans le menu Windows -> Preferences -> Talend -> Components 
       dans le champ <b>Dossier des composants utilisateur</b> renseigner le dossier dans lequel vous allez déposer le nouveau composant. Par exemple : 
@@ -15,4 +15,9 @@ Voici les étapes à suivre afin d'installer le composant :
 Une fois l'installation, utilisez les touches CTRL+SHIFT+F3 afin de faire apparaitre le nouveau composant dans le palette. 
 
 # Utilisation
+Voici les étapes à suivre pour utiliser le composant:
+1. Relier le nouveau composant à un tELTOracleMap
+2. Paramétrer le composant en suivant la capture d'écran ci-dessous 
+
+
 
