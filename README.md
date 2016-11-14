@@ -3,22 +3,28 @@ Le composant tELTOracleOutputSEQ est une évolution, du composant tELTOracleOutp
 
 # Installation
 Voici les étapes à suivre pour installer le composant :
-1. Spécifier un dossier pour les composants utilisateur 
+<ul>
+<li>1. Spécifier un dossier pour les composants utilisateur 
     il faut se rendre dans le menu Windows -> Preferences -> Talend -> Components 
       dans le champ <b>Dossier des composants utilisateur</b> renseigner le dossier dans lequel vous allez déposer le nouveau composant. Par exemple : 
       <i>C:\Talend5.6.1\TOS_DI-20141207_1530-V5.6.1\custom</i>
-2. Télécharger le zip d'ici et le sauvegarder dans le dossier spécifier dans l'étape 1
+<li>2. Télécharger le zip d'ici et le sauvegarder dans le dossier spécifier dans l'étape 1 </li>
 
-3. En fonction de votre version, modifier le fichier <b>tELTOracleOutputSEQ_main.javajet</b>. La ligne suivante doit pointer sur le bon répertoire du fichier <b>Log4jDBConnUtil.javajet </b>: 
-    <%@ include file="../../plugins/org.talend.designer.components.localprovider_5.6.1.20141207_1530/components/templates/Log4j/Log4jDBConnUtil.javajet"%>      
+<li>3. En fonction de votre version, modifier le fichier <b>tELTOracleOutputSEQ_main.javajet</b>. La ligne suivante doit pointer sur le bon répertoire du fichier <b>Log4jDBConnUtil.javajet </b>: 
+    <%@ include file="../../plugins/org.talend.designer.components.localprovider_5.6.1.20141207_1530/components/templates/Log4j/Log4jDBConnUtil.javajet"%>
+    </li>
+</ul>     
 
 Une fois l'installation, utilisez les touches CTRL+SHIFT+F3 afin de faire apparaitre le nouveau composant dans le palette. 
 
 # Utilisation
 Voici les étapes à suivre pour utiliser le composant:
-1. Relier le nouveau composant à un tELTOracleMap
-2. Paramétrer le composant en suivant la capture d'écran ci-dessous :
+<ul>
+<li>1. Relier le nouveau composant à un tELTOracleMap</li>
+<li>2. Paramétrer le composant en suivant la capture d'écran ci-dessous :
 <img src="images/usage.png" alt="hi" class="inline"/>
+</li>
+</ul>
 
 
 
