@@ -17,7 +17,8 @@ Une fois l'installation, utilisez les touches CTRL+SHIFT+F3 afin de faire appara
 # Utilisation
 Voici les étapes à suivre pour utiliser le composant:
 1. Relier le nouveau composant à un tELTOracleMap
-2. Paramétrer le composant en suivant la capture d'écran ci-dessous 
+2. Paramétrer le composant en suivant la capture d'écran ci-dessous :
+<img src="images/usage.png" alt="hi" class="inline"/>
 
 
 
