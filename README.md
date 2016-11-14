@@ -24,7 +24,36 @@ Voici les étapes à suivre pour utiliser le composant:
 <li>2. Paramétrer le composant en suivant la capture d'écran ci-dessous :
 <img src="images/usage.png" alt="hi" class="inline"/>
 </li>
+<li>3. Spécifier la clé fonctionnelle de la table car celle-ci sera utilisée pour générer la rquête du MERGE. Cf. la capture d'écran ci-dessous. 
+<img src="images/schema.png" alt="hi" class="inline"/>
+</li>
 </ul>
+
+
+# Résultat 
+Voici la requête générée et envoyée au SGBD :
+MERGE INTO DIM_AUDIT target USING
+  (SELECT NULL,
+          SRC_AUDIT.NOM_SOURCE,
+          SRC_AUDIT.STATUT,
+          SYSTIMESTAMP AS INSERT_DATE,
+          SYSTIMESTAMP AS UPDATE_DATE
+   FROM SRC_AUDIT) SOURCE ON (target.NOM_SOURCE=source.NOM_SOURCE) WHEN MATCHED THEN
+UPDATE
+SET target.STATUT=source.STATUT,
+    target.UPDATE_DATE=source.UPDATE_DATE WHEN NOT MATCHED THEN
+INSERT (ID_AUDIT,
+        NOM_SOURCE,
+        STATUT,
+        INSERT_DATE,
+        UPDATE_DATE)
+VALUES (SEQ_DIM_AUDIT.NEXTVAL,
+        source.NOM_SOURCE,
+        source.STATUT,
+        source.INSERT_DATE,
+        source.UPDATE_DATE)
+
+
 
 
 
