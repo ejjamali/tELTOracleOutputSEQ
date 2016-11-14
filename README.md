@@ -14,9 +14,9 @@ Voici les étapes à suivre pour installer le composant :
 <li>3. En fonction de votre version, modifier le fichier <b>tELTOracleOutputSEQ_main.javajet</b>. La ligne suivante doit pointer sur le bon répertoire du fichier <b>Log4jDBConnUtil.javajet </b>: 
     <%@ include file="../../plugins/org.talend.designer.components.localprovider_5.6.1.20141207_1530/components/templates/Log4j/Log4jDBConnUtil.javajet"%>
     </li>
+    <li>4.Une fois l'installation, utilisez les touches CTRL+SHIFT+F3 afin de faire apparaitre le nouveau composant dans le palette.</li>
 </ul>     
 
-Une fois l'installation, utilisez les touches CTRL+SHIFT+F3 afin de faire apparaitre le nouveau composant dans le palette. 
 
 # Utilisation
 Voici les étapes à suivre pour utiliser le composant:
@@ -24,14 +24,15 @@ Voici les étapes à suivre pour utiliser le composant:
 <li>1. Relier le nouveau composant à un tELTOracleMap</li>
 <li>2. Paramétrer le composant en suivant la capture d'écran ci-dessous :
 <img src="images/usage.png" alt="hi" class="inline"/>
-</li>
-<li>3. Spécifier la clé fonctionnelle de la table car celle-ci sera utilisée pour générer la rquête du MERGE. Cf. la capture d'écran ci-dessous. 
-<img src="images/schema.png" alt="hi" class="inline"/>
-</li>
 
 L'option permettant l'utilisation d'une séquence apparait dans l'étape 4. Vous pouvez désormais utiliser une séquence afin d'alimenter la clé primaire de la table (décocher dans l'étape 3). 
 
 Certe, il y a d'autres solutions de contourennement afin d'arriver au même résultat : utilisation de trigger, de procédure stockée, etc. Mais c'est toujours mieux d'avoir un seul composant permettant la réalisation de tout le traitement update, insert et l'appel à la sequence. 
+
+</li>
+<li>3. Spécifier la clé fonctionnelle de la table car celle-ci sera utilisée pour générer la rquête du MERGE. Cf. la capture d'écran ci-dessous. 
+<img src="images/schema.png" alt="hi" class="inline"/>
+</li>
 </ul>
 
 
