@@ -6,8 +6,8 @@ Le composant tELTOracleOutputSEQ est une évolution, du composant tELTOracleOutp
 Voici les étapes à suivre pour installer le composant :
 <ul>
 <li>1. Spécifier un dossier pour les composants utilisateur <br/>
-    il faut se rendre dans le menu Windows -> Preferences -> Talend -> Components <br/> 
-      dans le champ <b>Dossier des composants utilisateur</b> renseigner le dossier dans lequel vous allez déposer le nouveau composant. Par exemple : 
+    Il faut se rendre dans le menu Windows -> Preferences -> Talend -> Components <br/> 
+    Dans le champ <b>Dossier des composants utilisateur</b> renseigner le dossier dans lequel vous allez déposer le nouveau composant.<br/> Par exemple :<br/> 
       <i>C:\Talend5.6.1\TOS_DI-20141207_1530-V5.6.1\custom</i>
 <li>2. Télécharger le zip d'ici et le sauvegarder dans le dossier spécifier dans l'étape 1 </li>
 
