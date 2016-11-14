@@ -39,6 +39,14 @@ Certe, il y a d'autres solutions de contourennement afin d'arriver au même rés
 Voici la requête générée et envoyée au SGBD :
 <img src="images/result.png" alt="hi" class="inline"/>
 
+# Contributors
+
+Jamal EL Mansouri
+
+# License
+
+Licensed under the Apache V2 License
+
 
 
 
