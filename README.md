@@ -1,5 +1,5 @@
 # tELTOracleOutputSEQ
-Le composant tELTOracleOutputSEQ est une évolution, du composant tELTOracleOutput de Talend, qui permet l'utilisation d'une séquence dans le cas MERGE/INSERT. 
+Le composant tELTOracleOutputSEQ est une évolution, du composant tELTOracleOutput de Talend, qui permet l'utilisation d'une séquence dans le cas du MERGE/INSERT. 
     <img src="images/tELTOracleOutputSEQ.png" alt="hi" class="inline"/>
 
 # Installation
@@ -15,7 +15,7 @@ Voici les étapes à suivre pour installer le composant :
 La ligne suivante doit pointer sur le bon répertoire du fichier <b>Log4jDBConnUtil.javajet </b>: <br/> 
     <%@ include file="../../plugins/org.talend.designer.components.localprovider_5.6.1.20141207_1530/components/templates/Log4j/Log4jDBConnUtil.javajet"%>
     </li>
-    <li>4.Une fois l'installation, utilisez les touches CTRL+SHIFT+F3 afin de faire apparaitre le nouveau composant dans le palette.</li>
+    <li>4. Utiliser les touches CTRL+SHIFT+F3 afin de faire apparaitre le nouveau composant dans la palette (ELT/Map/Oracle).</li>
 </ul>     
 
 
