@@ -1,5 +1,5 @@
 # tELTOracleOutputSEQ
-Le composant tELTOracleOutputSEQ est une évolution, du composant tELTOracleOutput de Talend, qui permet l'utilisation d'une séquence dans le cas du MERGE/INSERT. 
+Le composant tELTOracleOutputSEQ est une évolution du composant tELTOracleOutput de Talend qui permet l'utilisation d'une séquence dans le cas du MERGE/INSERT. 
     <img src="images/tELTOracleOutputSEQ.png" alt="hi" class="inline"/>
 
 # Installation
