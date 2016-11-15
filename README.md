@@ -41,7 +41,7 @@ Certes, il y a d'autres solutions de contournement afin d'arriver au même résu
 Voici la requête générée et envoyée au SGBD :
 <img src="images/result.png" alt="hi" class="inline"/>
 
-# Contributors
+# Contributor
 
 Jamal EL Mansouri
 
