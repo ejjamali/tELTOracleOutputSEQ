@@ -26,9 +26,9 @@ Voici les étapes à suivre pour utiliser le composant:
 <li>2. Paramétrer le composant en suivant la capture d'écran ci-dessous :
 <img src="images/usage.png" alt="hi" class="inline"/>
 
-L'option permettant l'utilisation d'une séquence apparait dans l'étape 4. Vous pouvez désormais utiliser une séquence afin d'alimenter la clé primaire de la table (décocher dans l'étape 3).<br/> 
+L'option permettant l'utilisation d'une séquence apparait dans l'étape 4. Vous pouvez désormais utiliser une séquence afin d'alimenter la clé primaire de la table (décocher dans l'étape 3).<br/> <br/> 
 
-Certes, il y a d'autres solutions de contournement afin d'arriver au même résultat : utilisation de trigger, de procédure stockée, etc. Mais c'est toujours mieux d'avoir un seul composant permettant la réalisation de tout le traitement update, insert et l'appel à la séquence. 
+Certes, il y a d'autres solutions de contournement afin d'arriver au même résultat : utilisation de trigger, de procédure stockée, etc. Mais c'est toujours mieux d'avoir un seul composant permettant la réalisation de tout le traitement update, insert et l'appel à la séquence. <br/> 
 
 </li>
 <li>3. Spécifier la clé fonctionnelle de la table car celle-ci sera utilisée pour générer la requête du MERGE. Cf. la capture d'écran ci-dessous. 
